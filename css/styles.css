@@ -561,6 +561,12 @@ footer {
     gap: 2rem !important;
   }
 
+  /* Stack about page 2-column grids on mobile */
+  main [style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
   section {
     padding: 4rem 1.5rem;
   }
