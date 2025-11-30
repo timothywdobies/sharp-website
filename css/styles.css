@@ -555,6 +555,12 @@ footer {
     padding: 8rem 1.5rem 4rem;
   }
 
+  /* Stack hero grid on mobile */
+  .hero [style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
   section {
     padding: 4rem 1.5rem;
   }
