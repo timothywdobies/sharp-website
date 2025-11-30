@@ -561,10 +561,15 @@ footer {
     gap: 2rem !important;
   }
 
-  /* Stack about page 2-column grids on mobile */
+  /* Stack about page and contact page 2-column grids on mobile */
   main [style*="grid-template-columns: 1fr 1fr"] {
     grid-template-columns: 1fr !important;
     gap: 2rem !important;
+  }
+
+  /* Contact form inputs full width on mobile */
+  input, select, textarea {
+    font-size: 16px !important; /* Prevents zoom on iOS */
   }
 
   section {
